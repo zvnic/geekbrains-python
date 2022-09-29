@@ -8,8 +8,7 @@
 import random
 
 def getListRandomValue(size):
-    arr = random.sample(range(1, size + 1), size)
-    return arr
+    return random.sample(range(1, size + 1), size)
 
 def multiplicationPairsNumbers(arr):
     result = []
